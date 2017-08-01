@@ -21,5 +21,9 @@
     "babel-preset-stage-2": "^6.24.1",
     "jest-cli": "^20.0.4"
   },
-  "jest": {}
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
+  }
 }

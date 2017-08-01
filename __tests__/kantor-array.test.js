@@ -1,4 +1,4 @@
-const getMaxSubSum = require('../src/kantor-array');
+import { getMaxSubSum } from '../src/kantor-array';
 
 test('getMaxSubSum task', () => {
   expect(getMaxSubSum([-1, 2, 3, -9])).toBe(5);
@@ -8,7 +8,6 @@ test('getMaxSubSum task', () => {
   expect(getMaxSubSum([100, -9, 2, -3, 5])).toBe(100);
   expect(getMaxSubSum([1, 2, 3])).toBe(6);
 });
-
 
 
 // describe('http://learn.javascript.ru/task/get-last-in-array', () => {
